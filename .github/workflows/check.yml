@@ -9,10 +9,6 @@ on:
     branches-ignore:
       - 'releases/**'
 
-  release:
-    types:
-      - published
-
   workflow_dispatch:
 
 jobs:
